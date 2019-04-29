@@ -12,7 +12,7 @@ Create a dockerized web application, that will be capable of:
 - displaying current sleep status of the device (sleep or awake)
 
 ## Submission
-Assignment should be submitted by providing link to the accessible `git` repository or `compressed archive`.
+Assignment should be submitted by providing a link to accessible `git` repository or `compressed archive`.
 
 ### 1. Storage
 You can store sleep schedule settings in `MySQL` or `Postgres` database. There are no special requirements for DB schema.
@@ -114,4 +114,4 @@ Entire app should run by executing:
 ```
 docker-compose up
 ``` 
-Application should be accessible browsable on `http://localhost:8000/`
+Application should be browsable on `http://localhost:8000/`
