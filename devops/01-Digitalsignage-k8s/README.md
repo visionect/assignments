@@ -1,4 +1,4 @@
-# Digital signage in Kubernetes - Devops assignment #01
+# Digital Signage in Kubernetes - Devops assignment #01
 
 ## Introduction
 
