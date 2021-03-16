@@ -1,7 +1,7 @@
 ## Assignment for the Golang Backend Engineer position
 
 
-Create a HTTP web service that can be used to view, upload and delete PNG images..
+Create a HTTP web service using Go that can be used to view, upload and delete PNG images..
 
 Implement the following HTTP endpoints:
 
