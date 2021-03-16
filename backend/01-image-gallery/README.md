@@ -19,7 +19,7 @@ The uploaded images and their thumbnails must be persistent on service restarts.
 - You have the freedom to decide the methods for saving/restoring application state after restart.
 - The building and running process should be well documented.
 
-Web application and database should run inside separate docker containers. Create ``Dockerfile`` that bundles web application and ``docker-compose.yml`` file that runs all needed containers. Apart from having ``docker`` and ``docker-compose`` installed, there should be no special installation requirements on host machine.
+Web application and database (if any) should run inside separate docker containers. Create ``Dockerfile`` that bundles web application and ``docker-compose.yml`` file that runs all needed containers. Apart from having ``docker`` and ``docker-compose`` installed, there should be no special installation requirements on host machine.
 
 Entire app should run by executing:
 
@@ -33,4 +33,4 @@ Be mindful about commenting code, coding style and overall project structure.
 
 ### Submission
 
-The project should be submitted in a form of a git repository or a compressed archive.
+The final solution should be submitted in a form of a git repository or a compressed archive to your recruiter.
