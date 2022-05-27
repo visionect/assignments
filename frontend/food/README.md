@@ -2,6 +2,8 @@
 
 Create a web app for users to search recipes by name and show results in a list. Every recipe that is found should have a clickable link besides the name and when the user clicks on a link, the recipe information is shown. You can limit the search results to 10 recipes.
 
+The interface must contain a search input box, a "Search" button and a list of search results. If the focus is on the search box and ENTER was pressed by the user, then recipe search must be triggered.
+
 For searching through the recipes, use the spoonacular API, found at https://spoonacular.com/food-api/docs
 
 The visual look of the app must be clean and is up to the developer.
