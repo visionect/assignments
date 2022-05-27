@@ -8,6 +8,13 @@ The visual look of the app must be clean and is up to the developer.
 
 You can choose your tech stack (angular/vue/react), but we prefer react.
 
+## Extra
+
+Not necessary but appreciated:
+
+1. the web app shows a list of recently searched recipes and save the list to local storage and retrieve it again when the web app reloads,
+2. user can star the recipe. The star is saved and later restored from local storage and shown below the recipe search box.
+
 ### Submission
 
 The final solution should be submitted in a form of a git repository or a compressed archive to your recruiter. The final solution must also contain clear instructions how to compile the webapp, any extras (e.g. code comments) are appretiated.
