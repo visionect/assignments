@@ -8,10 +8,14 @@ Create an automated test using Playwright and Python to verify the login functio
 ### 1. Test Case
 Implement a test case that does the following:
 - Navigate to https://my.getjoan.com/
-- Enter the email address "test@example.com" into the email input field
-- Check the "I agree" checkbox
-- Click the "Log in" button
-- Verify that login fails and the message "Oops! It seems your email does not exist." appears on the page
+- Enter the email address "test@example.com" and password "123" into the email/password input box.
+- Click the "Sign in with email" button
+- Verify that login fails and the message "* Please enter a correct email address and password. Note that both fields may be case-sensitive.".
+
+#### 1.1 Details
+- Implement parameterized tests to check multiple email addresses
+- Add screenshots or video recording of failed tests
+- Implement a simple HTML report generator for test results
 
 ### 2. Technology Stack
 - Playwright
@@ -37,9 +41,7 @@ Implement a test case that does the following:
   - Suggestions for potential improvements or extensions to the test suite
 
 ### 6. Bonus Points (Optional)
-- Implement parameterized tests to check multiple email addresses
-- Add screenshots or video recording of failed tests
-- Implement a simple HTML report generator for test results
+
 
 ## Deliverables
 - Python script(s) containing the Playwright test
