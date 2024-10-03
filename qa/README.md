@@ -1,21 +1,18 @@
-# QA Engineer Assignment: Login Test with Playwright, Python, and Docker
+[#](#) QA Engineer Assignment: Login Test with Playwright, Python, and Docker
 
 ## Objective
-Create an automated test using Playwright and Python to verify the login functionality of https://my.getjoan.com/. The test should be containerized using Docker for easy deployment and execution.
+Create an automated test using Playwright and Python to verify the functionality of a "Task Manager" web app. The tests should be performed inside a Docker container (Dockerfile included) and automatically start when the container is run.
+
+The app is included in the repo (see tasks.html) or on the URL https://demo.visionect.com/tasks/index.html
 
 ## Requirements
 
-### 1. Test Case
+### 1. Test Cases
 Implement a test case that does the following:
-- Navigate to https://my.getjoan.com/
-- Enter the email address "test@example.com" and password "123" into the email/password input box.
-- Click the "Sign in with email" button
-- Verify that login fails and the message "* Please enter a correct email address and password. Note that both fields may be case-sensitive.".
 
-#### 1.1 Details
-- Implement parameterized tests to check multiple email addresses
-- Add screenshots or video recording of failed tests
-- Implement a simple HTML report generator for test results
+- After the page is loaded, the "Daily Tip" should load within one second (it shows the text "Stay focused and prioritize your most important tasks!")
+- If user adds a new task by entering a task name and clicking on the "Add Task" button, the created task should appear in the "Task List" section
+- If a user finishes a task (clicks on the checkbox besides the task) and then clicks on the "Show Completed Tasks" button, the finished task name should appear blow the "Show Completed Tasks" button within 10 seconds.
 
 ### 2. Technology Stack
 - Playwright
@@ -23,6 +20,8 @@ Implement a test case that does the following:
 - Docker
 
 ### 3. Implementation Details
+- Add screenshots or video recording of failed tests
+- Implement a simple HTML report generator for test results
 - Use Playwright's Python API to interact with the web page
 - Implement appropriate wait strategies to ensure elements are loaded before interacting with them
 - Use assertions to verify the presence of the error message
@@ -35,13 +34,10 @@ Implement a test case that does the following:
 
 ### 5. Documentation
 - Include a INSTRUCTIONS.md file with:
-  - A brief explanation of the test case
-  - Instructions for setting up and running the test both locally and using Docker
+  - A brief explanation of the test cases
+  - Instructions for setting up and running the test using Docker
   - Any assumptions or limitations of the current implementation
   - Suggestions for potential improvements or extensions to the test suite
-
-### 6. Bonus Points (Optional)
-
 
 ## Deliverables
 - Python script(s) containing the Playwright test
